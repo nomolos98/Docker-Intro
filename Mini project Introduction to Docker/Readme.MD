@@ -114,13 +114,13 @@ The `docker run` command is the entry point to execute containers in Docker. It 
     ```bash
     docker run hello-world
     ```
-*Note:* When getting a permission denied error when trying to run the docker run hello-world command. This is likely because the current user does not have the necessary permissions to interact with the Docker daemon. Please run Docker commands with sudo to execute them with elevated privileges: sudo docker run hello-world
+**Note:** When getting a permission denied error when trying to run the docker run hello-world command. This is likely because the current user does not have the necessary permissions to interact with the Docker daemon. Please run Docker commands with sudo to execute them with elevated privileges: sudo docker run hello-world
 
     When you execute this command, Docker performs the following steps:
 
-    - **Pulls the Image**: Docker checks if the `hello-world` image is available locally. If not, it automatically pulls it from the Docker Hub.
-    - **Creates a Container**: Docker creates a container based on the `hello-world` image.
-    - **Starts the Container**: The container is started, and it executes the predefined command in the `hello-world` image, which prints a friendly message.
+    - Pulls the Image**: Docker checks if the `hello-world` image is available locally. If not, it automatically pulls it from the Docker Hub.
+    - Creates a Container**: Docker creates a container based on the `hello-world` image.
+    - Starts the Container**: The container is started, and it executes the predefined command in the `hello-world` image, which prints a friendly message.
 
 #### Verifying the Successful Execution
 
