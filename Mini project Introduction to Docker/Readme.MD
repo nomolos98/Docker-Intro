@@ -92,7 +92,8 @@ Before installing Docker Engine for the first time on a new host machine, it is 
     ```bash
     sudo systemctl status docker
     ```
-https://github.com/nomolos98/Docker-Intro/blob/main/Mini%20project%20Introduction%20to%20Docker/Images/docimg1.PNG?raw=true
+![image](https://github.com/richardolat/PROJECTS-DAREY.IO/assets/134428528/4f2c04c7-b96a-4049-a423-e75b63c88182)
+![docimg1](https://github.com/nomolos98/Docker-Intro/blob/main/Mini%20project%20Introduction%20to%20Docker/Images/docimg1.PNG?raw=true)
 
     By default, after installing Docker, it can only be run by the root user or using `sudo`.
 
