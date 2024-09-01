@@ -14,9 +14,9 @@ By the end of this course, you should aim to achieve the following:
 
 ### Installing Docker
 
-#### Step 1: Launch an Ubuntu 20.04 LTS Instance
+#### Step 1: Launch an Ubuntu Instance
 
-First, launch an Ubuntu 20.04 LTS instance and connect to it.
+First, launch an Ubuntu instance and connect to it.
 
 #### Step 2: Add Docker's Official GPG Key
 
@@ -93,6 +93,7 @@ Before installing Docker Engine for the first time on a new host machine, it is 
     sudo systemctl status docker
     ```
 ![docimg1](https://github.com/user-attachments/assets/b3171a1f-d1ab-42c3-a7a7-26e240597ac2)
+![systatus](https://github.com/user-attachments/assets/d9e4f285-d0f9-4f2d-959d-c4288dab77a7)
 
 By default, after installing Docker, it can only be run by the root user or using `sudo`.
 
