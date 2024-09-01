@@ -92,7 +92,6 @@ Before installing Docker Engine for the first time on a new host machine, it is 
     ```bash
     sudo systemctl status docker
     ```
-![docimg1](https://github.com/user-attachments/assets/b3171a1f-d1ab-42c3-a7a7-26e240597ac2)
 ![systatus](https://github.com/user-attachments/assets/d9e4f285-d0f9-4f2d-959d-c4288dab77a7)
 
 By default, after installing Docker, it can only be run by the root user or using `sudo`.
@@ -116,6 +115,8 @@ The `docker run` command is the entry point to execute containers in Docker. It 
     ```bash
     docker run hello-world
     ```
+![1sthelloworld](https://github.com/user-attachments/assets/35b392b2-14cb-4aa9-b2f5-afbd80521e5c)
+
 **Note:** When getting a permission denied error when trying to run the docker run hello-world command. This is likely because the current user does not have the necessary permissions to interact with the Docker daemon. Please run Docker commands with sudo to execute them with elevated privileges: sudo docker run hello-world
 
 #### When you execute this command, Docker performs the following steps:
