@@ -121,9 +121,9 @@ The `docker run` command is the entry point to execute containers in Docker. It 
 
 #### When you execute this command, Docker performs the following steps:
 
-    - Pulls the Image**: Docker checks if the `hello-world` image is available locally. If not, it automatically pulls it from the Docker Hub.
-    - Creates a Container**: Docker creates a container based on the `hello-world` image.
-    - Starts the Container**: The container is started, and it executes the predefined command in the `hello-world` image, which prints a friendly message.
+    - Pulls the Image: Docker checks if the `hello-world` image is available locally. If not, it automatically pulls it from the Docker Hub.
+    - Creates a Container: Docker creates a container based on the `hello-world` image.
+    - Starts the Container: The container is started, and it executes the predefined command in the `hello-world` image, which prints a friendly message.
 
 #### Verifying the Successful Execution
 
@@ -131,3 +131,6 @@ You can check if the image is now in your local environment with:
 
 ```bash
 docker images
+```
+
+This simple "Hello World" serves a basic intro running containers with Docker. It verify that your Docker environment is et up properly and provides insight into the image and container lifecycle
