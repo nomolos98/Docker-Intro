@@ -133,4 +133,44 @@ You can check if the image is now in your local environment with:
 docker images
 ```
 
-This simple "Hello World" serves a basic intro running containers with Docker. It verify that your Docker environment is et up properly and provides insight into the image and container lifecycle
+This simple "Hello World" serves a basic intro running containers with Docker. It verify that your Docker environment is et up properly and provides insight into the image and container lifecycle.
+
+## Basic Docker Commands
+The **docker run** command is fundamental for executing containers. It creates and starts a container based on a specified image.
+```bash
+docker run nginx
+```
+This example pulls the nginx image from Docker Hub (if not available locally) and starts a container using that image.
+
+The **docker ps** command displays a list of running containers and to know active containers.
+```bash
+docker ps
+```
+To view all containers, including those that have stopped, add the -a option:
+```bash
+docker ps -a
+```
+The **docker stop** command halts a running container.
+```bash
+docker stop CONTAINER_ID
+```
+The **docker pull** command downloads a Docker image from a registry, such as Docker Hub, to your local machine.
+```bash
+docker pull ubuntu
+```
+The *docker push* command uploads a local Docker image to a registry, making it available for others to pull.
+```bash
+docker push your-username/image-name
+```
+**Ensure you've logged in to Docker Hub using docker login before pushing images.**
+
+The **docker images** command lists all locally available Docker images.
+```bash
+docker images
+```
+The **docker rmi** command removes one or more images from the local machine.
+```bash
+docker rmi IMAGE_ID
+```
+These basic Docker commands provide a foundation for working with containers. Understanding how to run, list, stop, pull, push, and manage Docker images is crucial for effective containerization and orchestration.
+
