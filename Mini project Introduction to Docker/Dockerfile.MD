@@ -56,11 +56,20 @@ After building the image, run a container based on the custom NGINX image we cre
 docker run -p 8080:80 my-nginx-image
 ```
 ![image](https://github.com/user-attachments/assets/3a54475c-279c-48f4-ae13-8cd8da12115e)
+
 This command maps port 8080 on your host machine to port 80 on the container where the NGINX server is running.
+
+Next, We will create a security group on the instance, and the aim is to allow incomming traffic on port 8080
+
+![image](https://github.com/user-attachments/assets/a4c687ad-ac8a-4ddd-9521-84fcd1090300)
 
 Use **docker ps -a** to see list of available running containers
 ![image](https://github.com/user-attachments/assets/59cdac3d-9a0e-4e21-8dfc-be3cb948206b)
 
 Use the **docker start** to start a stopped container
 ![image](https://github.com/user-attachments/assets/0ea89b4f-cdfd-44aa-a5d7-665fa7c6b781)
+
+Visit http://public-ip-address:8080 in your browser to display the web page.
+
+
 
