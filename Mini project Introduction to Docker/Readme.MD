@@ -158,12 +158,16 @@ The **docker pull** command downloads a Docker image from a registry, such as Do
 ```bash
 docker pull ubuntu
 ```
-The *docker push* command uploads a local Docker image to a registry, making it available for others to pull.
+The **docker push** command uploads a local Docker image to a registry, making it available for others to pull.
 ```bash
 docker push your-username/image-name
 ```
 **Ensure you've logged in to Docker Hub using docker login before pushing images.**
 
+The **docker search** command search for available images from docker hub
+```bash
+docker search ubuntu
+```
 The **docker images** command lists all locally available Docker images.
 ```bash
 docker images
